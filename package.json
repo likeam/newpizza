@@ -1,0 +1,25 @@
+{
+  "name": "newpizza",
+  "version": "1.0.0",
+  "description": "pizza recipe",
+  "defult": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/likeam/newpizza.git"
+  },
+  "author": "ar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/likeam/newpizza/issues"
+  },
+  "homepage": "https://github.com/likeam/newpizza#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.3.2",
+    "parcel": "^2.3.2",
+    "sass": "^1.49.8"
+  }
+}
