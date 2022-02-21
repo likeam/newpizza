@@ -15,7 +15,7 @@
 62E:\js\newpizza\node_modules\core-js\modules\esnext.set.some.js132898971259192637 0
 55E:\js\newpizza\node_modules\is-binary-path\package.json132897605421191258 0
 64E:\js\newpizza\node_modules\@parcel\config-default\test\.babelrc132897604964242649 0
-19E:\js\newpizza\dist132899126884141345 1
+19E:\js\newpizza\dist132899359777596668 1
 26E:\js\newpizza\.prettierrc132897398757807134 0
 47E:\js\newpizza\node_modules\nth-check\README.md132897604987988056 0
 24E:\js\newpizza\README.md132897270533012521 0
@@ -122,7 +122,7 @@
 45E:\js\newpizza\node_modules\lines-and-columns132897604971158389 1
 61E:\js\newpizza\node_modules\css-select\lib\procedure.d.ts.map132897605001269910 0
 45E:\js\newpizza\node_modules\is-number\LICENSE132897605421980756 0
-30E:\js\newpizza\src\js\model.js132899125483808419 0
+30E:\js\newpizza\src\js\model.js132899214051070585 0
 49E:\js\newpizza\node_modules\core-js\stable\number132898971285073716 1
 76E:\js\newpizza\node_modules\core-js\features\string\virtual\code-point-at.js132898971247358457 0
 51E:\js\newpizza\node_modules\@trysound\sax\README.md132897604973696842 0
@@ -163,7 +163,7 @@
 55E:\js\newpizza\node_modules\core-js\es\function\virtual132898971268125007 1
 34E:\js\newpizza\node_modules\@babel132897604912631792 1
 62E:\js\newpizza\node_modules\terser\lib\compress\reduce-vars.js132897605023123343 0
-35E:\js\newpizza\src\js\controller.js132898991152886410 0
+35E:\js\newpizza\src\js\controller.js132899216419648842 0
 37E:\js\newpizza\node_modules\is-number132897605422140669 1
 55E:\js\newpizza\node_modules\core-js\es\string\anchor.js132898971243881908 0
 46E:\js\newpizza\node_modules\is-number\index.js132897605421511066 0
@@ -3440,7 +3440,7 @@
 59E:\js\newpizza\node_modules\entities\lib\maps\entities.json132897604991945626 0
 57E:\js\newpizza\node_modules\entities\lib\maps\legacy.json132897604992805095 0
 62E:\js\newpizza\node_modules\core-js\stable\array\virtual\at.js132898971245939325 0
-41E:\js\newpizza\dist\index.e37f48ea.js.map132899126883871113 0
+41E:\js\newpizza\dist\index.e37f48ea.js.map132899359777196767 0
 102E:\js\newpizza\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased-file\index.js132897605011503617 0
 54E:\js\newpizza\node_modules\entities\lib\maps\xml.json132897604994793876 0
 59E:\js\newpizza\node_modules\core-js\stable\number\is-nan.js132898971271043217 0
@@ -3486,7 +3486,7 @@
 73E:\js\newpizza\node_modules\caniuse-lite\data\features\css-caret-color.js132897605039304899 0
 45E:\js\newpizza\node_modules\csso\package.json132897605023772939 0
 59E:\js\newpizza\node_modules\domutils\lib\stringify.d.ts.map132897604996732683 0
-37E:\js\newpizza\dist\index.e37f48ea.js132899126883801174 0
+37E:\js\newpizza\dist\index.e37f48ea.js132899359777136813 0
 64E:\js\newpizza\node_modules\@parcel\watcher\src\PromiseRunner.hh132897605006696569 0
 64E:\js\newpizza\node_modules\dom-serializer\node_modules\entities132897604995973161 1
 53E:\js\newpizza\node_modules\domutils\lib\stringify.js132897604986768806 0

@@ -19,6 +19,7 @@
   "homepage": "https://github.com/likeam/newpizza#readme",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.3.2",
+    "jshint": "^2.13.4",
     "parcel": "^2.3.2",
     "sass": "^1.49.8"
   },
