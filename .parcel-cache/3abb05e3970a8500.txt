@@ -1,4 +1,4 @@
-8666
+8678
 46E:\js\newpizza\node_modules\lodash\_hasPath.js132899442538116223 0
 46E:\js\newpizza\node_modules\lodash\fp\unzip.js132899442557503208 0
 18E:\js\newpizza\src132897271317127327 1
@@ -10,7 +10,7 @@
 75E:\js\newpizza\node_modules\core-js\modules\web.dom-collections.for-each.js132898971288781563 0
 56E:\js\newpizza\node_modules\core-js\actual\math\clz32.js132898971247148588 0
 50E:\js\newpizza\node_modules\postcss-merge-longhand132897605009354931 1
-19E:\js\newpizza\dist132899817014382536 1
+19E:\js\newpizza\dist132899947623117402 1
 76E:\js\newpizza\node_modules\@parcel\transformer-babel\lib\babelErrorUtils.js132897604972567522 0
 44E:\js\newpizza\node_modules\lodash\omitBy.js132899442551712823 0
 26E:\js\newpizza\.prettierrc132897398757807134 0
@@ -52,12 +52,11 @@
 52E:\js\newpizza\node_modules\abortcontroller-polyfill132897604995333553 1
 62E:\js\newpizza\node_modules\source-map-js\lib\binary-search.js132897604974576299 0
 67E:\js\newpizza\node_modules\core-js\modules\esnext.iterator.from.js132898971257523645 0
-27E:\js\newpizza\node_modules132899442558902350 1
+27E:\js\newpizza\node_modules132899830395189816 1
 52E:\js\newpizza\node_modules\safe-buffer\package.json132897604968460048 0
-38E:\js\newpizza\node_modules\css-select132897605005157514 1
 64E:\js\newpizza\node_modules\postcss-minify-gradients\LICENSE-MIT132897604958330631 0
 49E:\js\newpizza\node_modules\lodash\_createFind.js132899442534812367 0
-32E:\js\newpizza\package-lock.json132899442559992617 0
+32E:\js\newpizza\package-lock.json132899830396110812 0
 49E:\js\newpizza\node_modules\@parcel\cache\LICENSE132897604959307852 0
 61E:\js\newpizza\node_modules\@parcel\core\src\applyRuntimes.js132897604997472242 0
 57E:\js\newpizza\node_modules\css-tree\lib\walker\create.js132897605008495506 0
@@ -66,7 +65,7 @@
 53E:\js\newpizza\node_modules\dotenv-expand\lib\main.js132897604976894863 0
 81E:\js\newpizza\node_modules\jshint\node_modules\htmlparser2\test\Feeds\02-atom.js132899442532135828 0
 50E:\js\newpizza\node_modules\normalize-url\index.js132897604965781691 0
-27E:\js\newpizza\package.json132899442560028433 0
+27E:\js\newpizza\package.json132899830396176509 0
 52E:\js\newpizza\node_modules\lodash\fp\isArrayLike.js132899442545291778 0
 62E:\js\newpizza\node_modules\postcss-minify-font-values\src\lib132897604976585060 1
 66E:\js\newpizza\node_modules\core-js\actual\string\virtual\blink.js132898971246578930 0
@@ -83,7 +82,7 @@
 69E:\js\newpizza\node_modules\jshint\data\non-ascii-identifier-start.js132899442532503644 0
 57E:\js\newpizza\node_modules\weak-lru-cache\dist\index.cjs132897604964162680 0
 51E:\js\newpizza\node_modules\core-js\stable\weak-map132898971269813969 1
-21E:\js\newpizza\src\js132899125995233665 1
+21E:\js\newpizza\src\js132899861695679310 1
 60E:\js\newpizza\node_modules\core-js\modules\es.math.hypot.js132898971253330109 0
 32E:\js\newpizza\node_modules\once132899442527757777 1
 44E:\js\newpizza\node_modules\.bin\detect-libc132897605106919369 0
@@ -121,8 +120,8 @@
 67E:\js\newpizza\node_modules\json-parse-even-better-errors\README.md132897604973686845 0
 37E:\js\newpizza\src\sass\_preview.scss132894767958243153 0
 63E:\js\newpizza\node_modules\core-js\stable\string\trim-right.js132898971286916258 0
-41E:\js\newpizza\src\js\views\recipeView.js132899467533682377 0
 51E:\js\newpizza\node_modules\lodash\_wrapperClone.js132899442539645282 0
+41E:\js\newpizza\src\js\views\recipeView.js132899846588919266 0
 63E:\js\newpizza\node_modules\caniuse-lite\data\features\asmjs.js132897605014701654 0
 77E:\js\newpizza\node_modules\caniuse-lite\data\features\link-rel-preconnect.js132897605082773358 0
 61E:\js\newpizza\node_modules\css-select\lib\procedure.d.ts.map132897605001269910 0
@@ -130,7 +129,7 @@
 49E:\js\newpizza\node_modules\core-js\stable\number132898971285073716 1
 76E:\js\newpizza\node_modules\core-js\features\string\virtual\code-point-at.js132898971247358457 0
 45E:\js\newpizza\node_modules\is-number\LICENSE132897605421980756 0
-30E:\js\newpizza\src\js\model.js132899214051070585 0
+30E:\js\newpizza\src\js\model.js132899944869021580 0
 47E:\js\newpizza\node_modules\posthtml\lib\api.js132897604967120875 0
 51E:\js\newpizza\node_modules\@trysound\sax\README.md132897604973696842 0
 56E:\js\newpizza\node_modules\postcss-calc\src\parser.d.ts132897604997911971 0
@@ -180,6 +179,10 @@
 32E:\js\newpizza\node_modules\exit132899442528997731 1
 51E:\js\newpizza\node_modules\lodash\_getMatchData.js132899442535661843 0
 45E:\js\newpizza\node_modules\lodash\entries.js132899442542243676 0
+50E:\js\newpizza\node_modules\lodash\fp\zipObject.js132899442558472614 0
+69E:\js\newpizza\node_modules\core-js\modules\esnext.aggregate-error.js132898971256684175 0
+44E:\js\newpizza\node_modules\htmlnano\test.js132897605012532981 0
+31E:\js\newpizza\src\js\config.js132899866458442536 0
 34E:\js\newpizza\node_modules\braces132897605422630366 1
 75E:\js\newpizza\node_modules\caniuse-lite\data\features\template-literals.js132897605101412759 0
 52E:\js\newpizza\node_modules\postcss-value-parser\lib132897604987898123 1
@@ -204,10 +207,21 @@
 32E:\js\newpizza\node_modules\@swc132897604912621796 1
 45E:\js\newpizza\node_modules\csso\lib\usage.js132897605022193916 0
 51E:\js\newpizza\node_modules\@parcel\transformer-raw132897604972057839 1
-27E:\js\newpizza\src\js\views132899126699892791 1
+27E:\js\newpizza\src\js\views132899867379189315 1
 58E:\js\newpizza\node_modules\domutils\lib\querying.d.ts.map132897604996143049 0
 51E:\js\newpizza\node_modules\utility-types\README.md132897604994114290 0
 58E:\js\newpizza\node_modules\xxhash-wasm\umd\xxhash-wasm.js132897604971518244 0
+48E:\js\newpizza\node_modules\lodash\_realNames.js132899442538915742 0
+64E:\js\newpizza\node_modules\css-tree\lib\syntax\atrule\import.js132897605026561286 0
+63E:\js\newpizza\node_modules\postcss-merge-longhand\src\index.js132897604995433487 0
+50E:\js\newpizza\node_modules\lodash\_cloneRegExp.js132899442534242724 0
+79E:\js\newpizza\node_modules\@parcel\transformer-react-refresh-wrap\package.json132897604988497750 0
+72E:\js\newpizza\node_modules\terser\lib\compress\drop-side-effect-free.js132897605009684730 0
+46E:\js\newpizza\node_modules\lodash\isObject.js132899442546391091 0
+72E:\js\newpizza\node_modules\postcss-normalize-display-values\LICENSE-MIT132897604959167944 0
+57E:\js\newpizza\node_modules\mdn-data\css\definitions.json132897604991945626 0
+70E:\js\newpizza\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in132897605038175591 0
+38E:\js\newpizza\src\js\views\helpers.js132899947619962942 0
 34E:\js\newpizza\src\img\favicon.png132894717429298412 0
 53E:\js\newpizza\node_modules\lodash\fp\includesFrom.js132899442544532237 0
 47E:\js\newpizza\node_modules\lodash\package.json132899442558572552 0
@@ -261,7 +275,7 @@
 69E:\js\newpizza\node_modules\core-js\features\string\virtual\substr.js132898971283645648 0
 74E:\js\newpizza\node_modules\postcss-selector-parser\dist\selectors\root.js132897605003118768 0
 49E:\js\newpizza\node_modules\core-js\features\date132898971285993160 1
-46E:\js\newpizza\node_modules\.package-lock.json132899442560339406 0
+46E:\js\newpizza\node_modules\.package-lock.json132899830396546287 0
 35E:\js\newpizza\node_modules\@parcel132897605975719333 1
 59E:\js\newpizza\node_modules\core-js\features\weak-map\of.js132898971276063955 0
 60E:\js\newpizza\node_modules\core-js\internals\is-iterable.js132898971270963276 0
@@ -387,6 +401,7 @@
 68E:\js\newpizza\node_modules\core-js\features\object\lookup-getter.js132898971273698756 0
 49E:\js\newpizza\node_modules\lodash\_basePullAt.js132899442533323289 0
 50E:\js\newpizza\node_modules\css-declaration-sorter132897604980742511 1
+38E:\js\newpizza\node_modules\css-select132897605005157514 1
 59E:\js\newpizza\node_modules\core-js\features\string\link.js132898971273406461 0
 55E:\js\newpizza\node_modules\css-what\lib\index.d.ts.map132897604977014793 0
 44E:\js\newpizza\node_modules\date-now\LICENCE132899442527837720 0
@@ -521,6 +536,13 @@
 64E:\js\newpizza\node_modules\core-js\stable\string\virtual\sub.js132898971283515180 0
 38E:\js\newpizza\node_modules\fill-range132897605422130682 1
 73E:\js\newpizza\node_modules\caniuse-lite\data\features\input-inputmode.js132897605079335456 0
+89E:\js\newpizza\node_modules\@parcel\graph\test\integration\adjacency-list-shared-array.js132897604967450672 0
+64E:\js\newpizza\node_modules\core-js\actual\array\virtual\find.js132898971261596825 0
+71E:\js\newpizza\node_modules\caniuse-lite\data\features\notifications.js132897605093896523 0
+79E:\js\newpizza\node_modules\lmdb\prebuilds\linux-arm64\electron.abi99.musl.node132897605041763392 0
+42E:\js\newpizza\node_modules\lodash\_Map.js132899442538495989 0
+57E:\js\newpizza\node_modules\css-select\lib\procedure.d.ts132897605012522982 0
+38E:\js\newpizza\node_modules\fractional132899830394924470 1
 49E:\js\newpizza\node_modules\lodash\pullAllWith.js132899442553071967 0
 56E:\js\newpizza\node_modules\posthtml\types\posthtml.d.ts132897604987088608 0
 44E:\js\newpizza\node_modules\core-util-is\lib132899442526931661 1
@@ -535,8 +557,9 @@
 36E:\js\newpizza\node_modules\get-port132897604973277094 1
 66E:\js\newpizza\node_modules\core-js\actual\array\virtual\values.js132898971288404224 0
 58E:\js\newpizza\node_modules\csso\lib\clean\TypeSelector.js132897605021684223 0
-32E:\js\newpizza\node_modules\glob132899442528677941 1
 54E:\js\newpizza\node_modules\postcss\lib\container.d.ts132897605012582949 0
+47E:\js\newpizza\node_modules\fractional\index.js132899830394814000 0
+32E:\js\newpizza\node_modules\glob132899442528677941 1
 81E:\js\newpizza\node_modules\caniuse-lite\data\features\css-repeating-gradients.js132897605049348734 0
 52E:\js\newpizza\node_modules\to-regex-range\README.md132897605422320558 0
 67E:\js\newpizza\node_modules\core-js\internals\add-to-unscopables.js132898971243586597 0
@@ -927,6 +950,7 @@
 47E:\js\newpizza\node_modules\lodash\fp\remove.js132899442553481715 0
 53E:\js\newpizza\node_modules\postcss-reduce-transforms132897604971198365 1
 60E:\js\newpizza\node_modules\postcss-discard-comments\src\lib132897604969019706 1
+51E:\js\newpizza\node_modules\fractional\package.json132899830394348313 0
 34E:\js\newpizza\node_modules\terser132897605026741123 1
 91E:\js\newpizza\node_modules\jshint\node_modules\htmlparser2\test\Documents\Atom_Example.xml132899442530596738 0
 51E:\js\newpizza\node_modules\terser\lib\transform.js132897605025661794 0
@@ -1127,10 +1151,10 @@
 70E:\js\newpizza\node_modules\@parcel\transformer-babel\lib\constants.js132897604990766360 0
 42E:\js\newpizza\node_modules\yaml\scalar.js132897605012073261 0
 50E:\js\newpizza\node_modules\isarray\component.json132899442528438085 0
-44E:\js\newpizza\node_modules\mdn-data\LICENSE132897604957791515 0
-67E:\js\newpizza\node_modules\core-js\stable\array\virtual\reverse.js132898971279472292 0
 39E:\js\newpizza\node_modules\yaml\seq.js132897605015541135 0
 68E:\js\newpizza\node_modules\core-js\modules\esnext.iterator.every.js132898971257453698 0
+67E:\js\newpizza\node_modules\core-js\stable\array\virtual\reverse.js132898971279472292 0
+44E:\js\newpizza\node_modules\mdn-data\LICENSE132897604957791515 0
 62E:\js\newpizza\node_modules\jshint\node_modules\domhandler\lib132899442528617972 1
 45E:\js\newpizza\node_modules\core-js\es\symbol132898971288104412 1
 59E:\js\newpizza\node_modules\caniuse-lite\data\regions\BN.js132897605029079683 0
@@ -1358,7 +1382,6 @@
 54E:\js\newpizza\node_modules\core-js\es\symbol\index.js132898971268444808 0
 60E:\js\newpizza\node_modules\core-js\modules\es.math.log1p.js132898971253370078 0
 43E:\js\newpizza\node_modules\xxhash-wasm\esm132897604977804309 1
-54E:\js\newpizza\node_modules\@parcel\hash\index.js.flow132897604966211427 0
 67E:\js\newpizza\node_modules\css-tree\lib\syntax\pseudo\nth-child.js132897605034617784 0
 47E:\js\newpizza\node_modules\lodash\wrapperAt.js132899442558162810 0
 62E:\js\newpizza\node_modules\@parcel\runtime-service-worker\src132897604969169611 1
@@ -1625,12 +1648,6 @@
 65E:\js\newpizza\node_modules\core-js\actual\dom-exception\index.js132898971267565353 0
 64E:\js\newpizza\node_modules\node-addon-api\tools\clang-format.js132897604995083701 0
 62E:\js\newpizza\node_modules\type-fest\source\partial-deep.d.ts132897605006646603 0
-61E:\js\newpizza\node_modules\svgo\plugins\removeUselessDefs.js132897605026681158 0
-57E:\js\newpizza\node_modules\core-js\stable\string\virtual132898971287375963 1
-96E:\js\newpizza\node_modules\jshint\node_modules\htmlparser2\test\Events\30-cdata_edge-cases.json132899442532005869 0
-42E:\js\newpizza\node_modules\.bin\json5.ps1132897605106929369 0
-54E:\js\newpizza\node_modules\@parcel\graph\src\index.js132897604996163039 0
-70E:\js\newpizza\node_modules\postcss-ordered-values\src\rules\border.js132897604974396405 0
 64E:\js\newpizza\node_modules\@swc\helpers\lib\_new_arrow_check.js132897605020365031 0
 63E:\js\newpizza\node_modules\type-fest\source\readonly-deep.d.ts132897605010564199 0
 73E:\js\newpizza\node_modules\caniuse-lite\data\features\css-transitions.js132897605054375654 0
@@ -1654,8 +1671,8 @@
 47E:\js\newpizza\node_modules\lodash\functions.js132899442544042552 0
 46E:\js\newpizza\node_modules\timsort\.npmignore132897604965791682 0
 46E:\js\newpizza\node_modules\timsort\LICENSE.md132897604973666851 0
-72E:\js\newpizza\node_modules\core-js\stable\array\virtual\reduce-right.js132898971277813312 0
 65E:\js\newpizza\node_modules\css-tree\lib\syntax\scope\selector.js132897605037336124 0
+72E:\js\newpizza\node_modules\core-js\stable\array\virtual\reduce-right.js132898971277813312 0
 64E:\js\newpizza\node_modules\postcss-minify-font-values\README.md132897604986289105 0
 55E:\js\newpizza\node_modules\svgo\plugins\removeXMLNS.js132897605027180856 0
 49E:\js\newpizza\node_modules\msgpackr\iterators.js132897604989467147 0
@@ -1805,16 +1822,6 @@
 57E:\js\newpizza\node_modules\domhandler\lib\index.d.ts.map132897604974606280 0
 57E:\js\newpizza\node_modules\postcss-normalize-charset\src132897604965831665 1
 67E:\js\newpizza\node_modules\terser\lib\compress\compressor-flags.js132897605004587865 0
-48E:\js\newpizza\node_modules\lodash\_realNames.js132899442538915742 0
-64E:\js\newpizza\node_modules\css-tree\lib\syntax\atrule\import.js132897605026561286 0
-63E:\js\newpizza\node_modules\postcss-merge-longhand\src\index.js132897604995433487 0
-50E:\js\newpizza\node_modules\lodash\_cloneRegExp.js132899442534242724 0
-79E:\js\newpizza\node_modules\@parcel\transformer-react-refresh-wrap\package.json132897604988497750 0
-72E:\js\newpizza\node_modules\terser\lib\compress\drop-side-effect-free.js132897605009684730 0
-46E:\js\newpizza\node_modules\lodash\isObject.js132899442546391091 0
-72E:\js\newpizza\node_modules\postcss-normalize-display-values\LICENSE-MIT132897604959167944 0
-57E:\js\newpizza\node_modules\mdn-data\css\definitions.json132897604991945626 0
-70E:\js\newpizza\node_modules\lmdb\dependencies\lz4\lib\liblz4-dll.rc.in132897605038175591 0
 59E:\js\newpizza\node_modules\terser\lib\compress\evaluate.js132897605011723483 0
 53E:\js\newpizza\node_modules\css-what\lib\stringify.js132897604972167769 0
 48E:\js\newpizza\node_modules\domhandler\readme.md132897604980432693 0
@@ -1892,6 +1899,7 @@
 49E:\js\newpizza\node_modules\lodash\fp\includes.js132899442544502266 0
 58E:\js\newpizza\node_modules\svgo\plugins\removeMetadata.js132897605023852898 0
 47E:\js\newpizza\node_modules\@parcel\packager-js132897605001269910 1
+63E:\js\newpizza\node_modules\fractional\releases\fraction-0.2.js132899830395039918 0
 62E:\js\newpizza\node_modules\core-js\actual\symbol\match-all.js132898971274302033 0
 44E:\js\newpizza\node_modules\lodash\random.js132899442553191892 0
 48E:\js\newpizza\node_modules\date-now\.travis.yml132899442529307536 0
@@ -1934,6 +1942,12 @@
 71E:\js\newpizza\node_modules\caniuse-lite\data\features\css-clip-path.js132897605039484789 0
 55E:\js\newpizza\node_modules\svgo\plugins\removeTitle.js132897605026101511 0
 65E:\js\newpizza\node_modules\core-js\internals\number-is-finite.js132898971275407679 0
+61E:\js\newpizza\node_modules\svgo\plugins\removeUselessDefs.js132897605026681158 0
+57E:\js\newpizza\node_modules\core-js\stable\string\virtual132898971287375963 1
+96E:\js\newpizza\node_modules\jshint\node_modules\htmlparser2\test\Events\30-cdata_edge-cases.json132899442532005869 0
+42E:\js\newpizza\node_modules\.bin\json5.ps1132897605106929369 0
+54E:\js\newpizza\node_modules\@parcel\graph\src\index.js132897604996163039 0
+70E:\js\newpizza\node_modules\postcss-ordered-values\src\rules\border.js132897604974396405 0
 57E:\js\newpizza\node_modules\postcss-reduce-transforms\src132897604965791682 1
 50E:\js\newpizza\node_modules\lodash\_baseSetData.js132899442533563142 0
 58E:\js\newpizza\node_modules\core-js\proposals\string-at.js132898971282984559 0
@@ -2101,8 +2115,6 @@
 96E:\js\newpizza\node_modules\jshint\node_modules\htmlparser2\test\Events\26-not-quite-closed.json132899442531815981 0
 55E:\js\newpizza\node_modules\strip-json-comments\license132899442527897685 0
 49E:\js\newpizza\node_modules\lodash\fp\isNumber.js132899442546331132 0
-43E:\js\newpizza\node_modules\colord\index.js132897604974416391 0
-57E:\js\newpizza\node_modules\regenerator-runtime\README.md132897604974436379 0
 58E:\js\newpizza\node_modules\core-js\stable\object\index.js132898971269624088 0
 73E:\js\newpizza\node_modules\@swc\helpers\src\_async_generator_delegate.js132897605028759882 0
 46E:\js\newpizza\node_modules\readdirp\README.md132897605422310566 0
@@ -2110,6 +2122,8 @@
 43E:\js\newpizza\node_modules\postcss\LICENSE132897604958898117 0
 61E:\js\newpizza\node_modules\core-js\modules\es.reflect.set.js132898971254735364 0
 70E:\js\newpizza\node_modules\core-js\features\string\virtual\pad-end.js132898971276444141 0
+43E:\js\newpizza\node_modules\colord\index.js132897604974416391 0
+57E:\js\newpizza\node_modules\regenerator-runtime\README.md132897604974436379 0
 60E:\js\newpizza\node_modules\strip-json-comments\package.json132899442526323623 0
 97E:\js\newpizza\node_modules\@parcel\package-manager\test\fixtures\has-foo\subpackage\package.json132897605021354426 0
 53E:\js\newpizza\node_modules\node-addon-api\napi-inl.h132897604989557097 0
@@ -2174,8 +2188,8 @@
 63E:\js\newpizza\node_modules\css-tree\lib\generator\sourceMap.js132897605037785831 0
 73E:\js\newpizza\node_modules\@parcel\transformer-postcss\lib\loadConfig.js132897604972537539 0
 51E:\js\newpizza\node_modules\source-map\package.json132897604957781531 0
-48E:\js\newpizza\node_modules\source-map\README.md132897604966441292 0
 48E:\js\newpizza\node_modules\postcss\package.json132897605009524833 0
+48E:\js\newpizza\node_modules\source-map\README.md132897604966441292 0
 49E:\js\newpizza\node_modules\lodash\fp\isString.js132899442546730890 0
 42E:\js\newpizza\node_modules\lodash\find.js132899442542853290 0
 62E:\js\newpizza\node_modules\core-js\actual\array\virtual\at.js132898971245429649 0
@@ -2184,8 +2198,8 @@
 73E:\js\newpizza\node_modules\@parcel\core\test\ParcelConfigRequest.test.js132897605037236178 0
 80E:\js\newpizza\node_modules\lmdb\dependencies\lmdb\libraries\liblmdb\mtest_enc.c132897605027170876 0
 76E:\js\newpizza\node_modules\caniuse-lite\data\features\speech-recognition.js132897605097694195 0
-55E:\js\newpizza\node_modules\source-map\lib\array-set.js132897604974886106 0
 77E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.linux-arm-gnueabihf.node132897605000570347 0
+55E:\js\newpizza\node_modules\source-map\lib\array-set.js132897604974886106 0
 52E:\js\newpizza\node_modules\source-map\lib\base64.js132897604980412711 0
 53E:\js\newpizza\node_modules\htmlparser2\lib\Parser.js132897604972097812 0
 58E:\js\newpizza\node_modules\source-map\lib\mapping-list.js132897604988237900 0
@@ -2365,7 +2379,7 @@
 80E:\js\newpizza\node_modules\css-tree\lib\syntax\pseudo\common\nthWithOfClause.js132897605035277371 0
 44E:\js\newpizza\node_modules\lodash\deburr.js132899442541644036 0
 52E:\js\newpizza\node_modules\lodash\_mapCacheClear.js132899442538515977 0
-38E:\js\newpizza\dist\index.f7626f62.css132898946407170859 0
+38E:\js\newpizza\dist\index.f7626f62.css132899837324289961 0
 53E:\js\newpizza\node_modules\@parcel\codeframe\LICENSE132897604958838165 0
 68E:\js\newpizza\node_modules\core-js\modules\esnext.symbol.matcher.js132898971259402499 0
 74E:\js\newpizza\node_modules\@parcel\node-resolver-core\test\fixture\foo.js132897605004487923 0
@@ -2416,7 +2430,6 @@
 53E:\js\newpizza\node_modules\lodash\fp\differenceBy.js132899442541893886 0
 65E:\js\newpizza\node_modules\postcss-selector-parser\dist\index.js132897604994124285 0
 51E:\js\newpizza\node_modules\nanoid\index.browser.js132897604991246054 0
-70E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.darwin-arm64.node132897604990596453 0
 52E:\js\newpizza\node_modules\lodash\_arrayIncludes.js132899442529077684 0
 54E:\js\newpizza\node_modules\@parcel\core\src\worker.js132897605040833960 0
 48E:\js\newpizza\node_modules\lodash\fp\xorWith.js132899442558382679 0
@@ -2490,9 +2503,9 @@
 72E:\js\newpizza\node_modules\postcss-reduce-initial\data\fromInitial.json132897604970348889 0
 62E:\js\newpizza\node_modules\core-js\modules\es.string.split.js132898971255414944 0
 62E:\js\newpizza\node_modules\postcss-ordered-values\LICENSE-MIT132897604957951422 0
-45E:\js\newpizza\node_modules\is-glob\README.md132897605422520439 0
-51E:\js\newpizza\node_modules\@parcel\hash\browser.js132897604968579975 0
 67E:\js\newpizza\node_modules\postcss-minify-font-values\src\index.js132897604966621175 0
+51E:\js\newpizza\node_modules\@parcel\hash\browser.js132897604968579975 0
+45E:\js\newpizza\node_modules\is-glob\README.md132897605422520439 0
 63E:\js\newpizza\node_modules\postcss-ordered-values\package.json132897604997792035 0
 59E:\js\newpizza\node_modules\cosmiconfig\dist\types.d.ts.map132897605009544832 0
 61E:\js\newpizza\node_modules\caniuse-lite\data\features\ogv.js132897605094346267 0
@@ -2847,8 +2860,8 @@
 50E:\js\newpizza\node_modules\postcss\lib\symbols.js132897605004497912 0
 53E:\js\newpizza\node_modules\lodash\_unicodeToArray.js132899442539545349 0
 61E:\js\newpizza\node_modules\postcss\lib\terminal-highlight.js132897605004837710 0
-41E:\js\newpizza\node_modules\lmdb\write.js132897605039145062 0
 66E:\js\newpizza\node_modules\core-js\stable\array\virtual\values.js132898971288624089 0
+41E:\js\newpizza\node_modules\lmdb\write.js132897605039145062 0
 64E:\js\newpizza\node_modules\core-js\internals\same-value-zero.js132898971279512257 0
 52E:\js\newpizza\node_modules\postcss\lib\warn-once.js132897605007546044 0
 64E:\js\newpizza\node_modules\core-js\stable\array-buffer\index.js132898971269314274 0
@@ -3330,7 +3343,6 @@
 61E:\js\newpizza\node_modules\core-js\features\date\get-year.js132898971265375451 0
 47E:\js\newpizza\node_modules\lodash.uniq\LICENSE132897604968190215 0
 63E:\js\newpizza\node_modules\core-js\modules\esnext.set.every.js132898971258972765 0
-53E:\js\newpizza\node_modules\@parcel\hash\package.json132897604973886728 0
 49E:\js\newpizza\node_modules\lodash.uniq\README.md132897604965711732 0
 78E:\js\newpizza\node_modules\@swc\helpers\src\_iterable_to_array_limit_loose.js132897605035897010 0
 47E:\js\newpizza\node_modules\lodash\isInteger.js132899442545911389 0
@@ -3885,11 +3897,6 @@
 50E:\js\newpizza\node_modules\lodash\_LazyWrapper.js132899442538416039 0
 51E:\js\newpizza\node_modules\lodash\_listCacheSet.js132899442538476004 0
 59E:\js\newpizza\node_modules\core-js\features\array\every.js132898971259972153 0
-89E:\js\newpizza\node_modules\@parcel\graph\test\integration\adjacency-list-shared-array.js132897604967450672 0
-64E:\js\newpizza\node_modules\core-js\actual\array\virtual\find.js132898971261596825 0
-71E:\js\newpizza\node_modules\caniuse-lite\data\features\notifications.js132897605093896523 0
-79E:\js\newpizza\node_modules\lmdb\prebuilds\linux-arm64\electron.abi99.musl.node132897605041763392 0
-42E:\js\newpizza\node_modules\lodash\_Map.js132899442538495989 0
 47E:\js\newpizza\node_modules\lodash\_MapCache.js132899442538505980 0
 50E:\js\newpizza\node_modules\lodash\_mapCacheSet.js132899442538555953 0
 49E:\js\newpizza\node_modules\lodash\_mapToArray.js132899442538605916 0
@@ -3936,14 +3943,13 @@
 44E:\js\newpizza\node_modules\lodash\fp\add.js132899442539695258 0
 49E:\js\newpizza\node_modules\lodash\fp\isNative.js132899442546141256 0
 46E:\js\newpizza\node_modules\lodash\fp\after.js132899442539735221 0
-65E:\js\newpizza\node_modules\core-js\stable\array\virtual\slice.js132898971281281168 0
 44E:\js\newpizza\node_modules\lodash\fp\all.js132899442539745218 0
 48E:\js\newpizza\node_modules\lodash\fp\allPass.js132899442539755218 0
+54E:\js\newpizza\node_modules\csso\lib\replace\String.js132897605021494344 0
 47E:\js\newpizza\node_modules\lodash\fp\always.js132899442539765211 0
 56E:\js\newpizza\node_modules\core-js\actual\array\keys.js132898971272655824 0
 64E:\js\newpizza\node_modules\caniuse-lite\data\features\brotli.js132897605030479681 0
 66E:\js\newpizza\node_modules\core-js\stable\array\virtual\reduce.js132898971278153101 0
-54E:\js\newpizza\node_modules\csso\lib\replace\String.js132897605021494344 0
 44E:\js\newpizza\node_modules\lodash\fp\any.js132899442539805183 0
 69E:\js\newpizza\node_modules\core-js\modules\esnext.array.to-sorted.js132898971256954007 0
 59E:\js\newpizza\node_modules\caniuse-lite\data\regions\KZ.js132897605082353610 0
@@ -3975,6 +3981,7 @@
 48E:\js\newpizza\node_modules\lodash\fp\toLower.js132899442556263980 0
 50E:\js\newpizza\node_modules\lodash\fp\camelCase.js132899442540474786 0
 50E:\js\newpizza\node_modules\lodash\fp\castArray.js132899442540544716 0
+47E:\js\newpizza\node_modules\fractional\tests.js132899830394843980 0
 49E:\js\newpizza\node_modules\lodash\fp\dropLast.js132899442541983820 0
 45E:\js\newpizza\node_modules\lodash\fp\ceil.js132899442540574711 0
 74E:\js\newpizza\node_modules\caniuse-lite\data\features\css-revert-value.js132897605053706115 0
@@ -4160,7 +4167,7 @@
 72E:\js\newpizza\node_modules\@parcel\source-map\dist\wasm-bindings-web.js132897604998411661 0
 51E:\js\newpizza\node_modules\is-extglob\package.json132897605421351155 0
 52E:\js\newpizza\node_modules\lodash\fp\isEqualWith.js132899442545651555 0
-38E:\js\newpizza\dist\icons.dfd7a6db.svg132898955308425591 0
+38E:\js\newpizza\dist\icons.dfd7a6db.svg132899837324524692 0
 59E:\js\newpizza\node_modules\core-js\stable\string\strike.js132898971282954582 0
 53E:\js\newpizza\node_modules\css-select\lib\index.d.ts132897605011863387 0
 48E:\js\newpizza\node_modules\lodash\fp\isError.js132899442545721512 0
@@ -4456,9 +4463,6 @@
 65E:\js\newpizza\node_modules\caniuse-lite\data\features\netinfo.js132897605093696642 0
 46E:\js\newpizza\node_modules\lodash\fp\xorBy.js132899442558342698 0
 47E:\js\newpizza\node_modules\lodash\fp\zipObj.js132899442558452624 0
-50E:\js\newpizza\node_modules\lodash\fp\zipObject.js132899442558472614 0
-69E:\js\newpizza\node_modules\core-js\modules\esnext.aggregate-error.js132898971256684175 0
-44E:\js\newpizza\node_modules\htmlnano\test.js132897605012532981 0
 54E:\js\newpizza\node_modules\lodash\fp\zipObjectDeep.js132899442558492606 0
 63E:\js\newpizza\node_modules\core-js\actual\date\to-primitive.js132898971285103701 0
 44E:\js\newpizza\node_modules\jshint\bin\build132899442527021604 0
@@ -4467,8 +4471,8 @@
 53E:\js\newpizza\node_modules\lodash\fp\_baseConvert.js132899442531236338 0
 60E:\js\newpizza\node_modules\@parcel\events\lib\Disposable.js132897604967340785 0
 56E:\js\newpizza\node_modules\lodash\fp\_convertBrowser.js132899442534442690 0
-54E:\js\newpizza\node_modules\lodash\fp\_falseOptions.js132899442535451985 0
 48E:\js\newpizza\node_modules\@parcel\hash\LICENSE132897604959357817 0
+54E:\js\newpizza\node_modules\lodash\fp\_falseOptions.js132899442535451985 0
 43E:\js\newpizza\node_modules\lmdb\index.d.ts132897605089499212 0
 49E:\js\newpizza\node_modules\lodash\fp\_mapping.js132899442538575946 0
 56E:\js\newpizza\node_modules\core-js\es\typed-array\of.js132898971276003991 0
@@ -5074,6 +5078,17 @@
 46E:\js\newpizza\node_modules\fs.realpath\old.js132899442528458068 0
 57E:\js\newpizza\node_modules\css-select\lib\types.d.ts.map132897605004717775 0
 49E:\js\newpizza\node_modules\fs.realpath\README.md132899442526921665 0
+54E:\js\newpizza\node_modules\fractional\array_mixins.js132899830394694066 0
+65E:\js\newpizza\node_modules\core-js\stable\instance\find-index.js132898971261307008 0
+49E:\js\newpizza\node_modules\fractional\index.html132899830394864469 0
+61E:\js\newpizza\node_modules\core-js\stable\instance\values.js132898971288624089 0
+65E:\js\newpizza\node_modules\core-js\actual\promise\all-settled.js132898971243712011 0
+48E:\js\newpizza\node_modules\fractional\README.md132899830394674083 0
+47E:\js\newpizza\node_modules\fractional\releases132899830395009955 1
+63E:\js\newpizza\node_modules\fractional\releases\fraction-0.1.js132899830394999949 0
+71E:\js\newpizza\node_modules\caniuse-lite\data\features\css-gradients.js132897605040913916 0
+86E:\js\newpizza\node_modules\@parcel\optimizer-image\parcel-image.linux-arm64-musl.node132897605033038786 0
+65E:\js\newpizza\node_modules\core-js\actual\string\virtual\link.js132898971273366478 0
 47E:\js\newpizza\node_modules\fill-range\index.js132897605421501056 0
 46E:\js\newpizza\node_modules\fill-range\LICENSE132897605421980756 0
 61E:\js\newpizza\node_modules\core-js\modules\es.array.slice.js132898971252049899 0
@@ -5116,7 +5131,7 @@
 62E:\js\newpizza\node_modules\caniuse-lite\data\features\hevc.js132897605070456509 0
 43E:\js\newpizza\node_modules\core-js\es\json132898971285573419 1
 51E:\js\newpizza\node_modules\escalade\dist\index.mjs132897604977074759 0
-38E:\js\newpizza\dist\icons.21bad73c.svg132898946407894394 0
+38E:\js\newpizza\dist\icons.21bad73c.svg132899837324524692 0
 46E:\js\newpizza\node_modules\error-ex\README.md132897604971188374 0
 40E:\js\newpizza\node_modules\entities\lib132897605007546044 1
 47E:\js\newpizza\node_modules\cssesc\man\cssesc.1132897604977714367 0
@@ -5140,7 +5155,7 @@
 57E:\js\newpizza\node_modules\entities\lib\maps\legacy.json132897604992805095 0
 54E:\js\newpizza\node_modules\entities\lib\maps\xml.json132897604994793876 0
 102E:\js\newpizza\node_modules\@parcel\node-resolver-core\test\fixture\node_modules\aliased-file\index.js132897605011503617 0
-41E:\js\newpizza\dist\index.e37f48ea.js.map132899817014362545 0
+41E:\js\newpizza\dist\index.e37f48ea.js.map132899947623107406 0
 59E:\js\newpizza\node_modules\core-js\stable\number\is-nan.js132898971271043217 0
 72E:\js\newpizza\node_modules\entities\lib\generated\decode-data-html.d.ts132897605003198717 0
 69E:\js\newpizza\node_modules\core-js\features\number\to-exponential.js132898971284265483 0
@@ -5187,7 +5202,7 @@
 59E:\js\newpizza\node_modules\domutils\lib\stringify.d.ts.map132897604996732683 0
 73E:\js\newpizza\node_modules\caniuse-lite\data\features\css-caret-color.js132897605039304899 0
 45E:\js\newpizza\node_modules\csso\package.json132897605023772939 0
-37E:\js\newpizza\dist\index.e37f48ea.js132899817014342590 0
+37E:\js\newpizza\dist\index.e37f48ea.js132899947623057430 0
 53E:\js\newpizza\node_modules\domutils\lib\stringify.js132897604986768806 0
 64E:\js\newpizza\node_modules\@parcel\watcher\src\PromiseRunner.hh132897605006696569 0
 64E:\js\newpizza\node_modules\dom-serializer\node_modules\entities132897604995973161 1
@@ -5456,7 +5471,6 @@
 69E:\js\newpizza\node_modules\core-js\actual\typed-array\int32-array.js132898971270053824 0
 57E:\js\newpizza\node_modules\css-select\lib\index.d.ts.map132897605000300500 0
 51E:\js\newpizza\node_modules\css-select\lib\index.js132897604985279729 0
-57E:\js\newpizza\node_modules\css-select\lib\procedure.d.ts132897605012522982 0
 69E:\js\newpizza\node_modules\core-js\stable\typed-array\int32-array.js132898971270093803 0
 58E:\js\newpizza\node_modules\core-js\features\json\index.js132898971268794592 0
 55E:\js\newpizza\node_modules\css-select\lib\procedure.js132897604989537103 0
@@ -5641,8 +5655,8 @@
 59E:\js\newpizza\node_modules\core-js\es\reflect\construct.js132898971247968087 0
 67E:\js\newpizza\node_modules\core-js\stable\string\virtual\anchor.js132898971243981848 0
 74E:\js\newpizza\node_modules\core-js\stable\string\virtual\code-point-at.js132898971247408421 0
-64E:\js\newpizza\node_modules\core-js\proposals\array-filtering.js132898971244356781 0
 69E:\js\newpizza\node_modules\core-js\stable\string\virtual\fontsize.js132898971263292366 0
+64E:\js\newpizza\node_modules\core-js\proposals\array-filtering.js132898971244356781 0
 61E:\js\newpizza\node_modules\core-js\modules\es.regexp.exec.js132898971254835319 0
 69E:\js\newpizza\node_modules\core-js\stable\string\virtual\iterator.js132898971272256070 0
 70E:\js\newpizza\node_modules\core-js\stable\string\virtual\match-all.js132898971274451939 0
@@ -5721,7 +5735,6 @@
 64E:\js\newpizza\node_modules\core-js\stable\instance\ends-with.js132898971250296650 0
 62E:\js\newpizza\node_modules\core-js\stable\instance\entries.js132898971250895235 0
 66E:\js\newpizza\node_modules\core-js\stable\instance\starts-with.js132898971282754703 0
-65E:\js\newpizza\node_modules\core-js\stable\instance\find-index.js132898971261307008 0
 59E:\js\newpizza\node_modules\core-js\stable\instance\find.js132898971262018146 0
 65E:\js\newpizza\node_modules\caniuse-lite\data\features\details.js132897605056234500 0
 60E:\js\newpizza\node_modules\core-js\stable\instance\flags.js132898971262363340 0
@@ -5741,8 +5754,6 @@
 64E:\js\newpizza\node_modules\core-js\stable\instance\trim-left.js132898971286656407 0
 61E:\js\newpizza\node_modules\core-js\stable\error\to-string.js132898971286093091 0
 65E:\js\newpizza\node_modules\core-js\stable\instance\trim-start.js132898971287086146 0
-61E:\js\newpizza\node_modules\core-js\stable\instance\values.js132898971288624089 0
-65E:\js\newpizza\node_modules\core-js\actual\promise\all-settled.js132898971243712011 0
 67E:\js\newpizza\node_modules\core-js\stable\function\has-instance.js132898971265896376 0
 59E:\js\newpizza\node_modules\core-js\stable\function\name.js132898971275181857 0
 67E:\js\newpizza\node_modules\core-js\stable\function\virtual\bind.js132898971246508975 0
@@ -5789,6 +5800,7 @@
 84E:\js\newpizza\node_modules\abortcontroller-polyfill\src\abortcontroller-polyfill.js132897604973167160 0
 70E:\js\newpizza\node_modules\caniuse-lite\data\features\css-rrggbbaa.js132897605053746030 0
 73E:\js\newpizza\node_modules\core-js\stable\array\virtual\last-index-of.js132898971273211211 0
+65E:\js\newpizza\node_modules\core-js\stable\array\virtual\slice.js132898971281281168 0
 64E:\js\newpizza\node_modules\core-js\stable\array\virtual\sort.js132898971282050703 0
 66E:\js\newpizza\node_modules\core-js\stable\array\virtual\splice.js132898971282379575 0
 81E:\js\newpizza\node_modules\core-js\proposals\accessible-object-hasownproperty.js132898971243393146 0
@@ -7212,9 +7224,6 @@
 54E:\js\newpizza\node_modules\color-convert\CHANGELOG.md132897604966041531 0
 57E:\js\newpizza\node_modules\@parcel\workers\lib\Handle.js132897604996352919 0
 69E:\js\newpizza\node_modules\core-js\actual\string\virtual\iterator.js132898971271923464 0
-71E:\js\newpizza\node_modules\caniuse-lite\data\features\css-gradients.js132897605040913916 0
-86E:\js\newpizza\node_modules\@parcel\optimizer-image\parcel-image.linux-arm64-musl.node132897605033038786 0
-65E:\js\newpizza\node_modules\core-js\actual\string\virtual\link.js132898971273366478 0
 70E:\js\newpizza\node_modules\core-js\actual\string\virtual\match-all.js132898971274272051 0
 68E:\js\newpizza\node_modules\core-js\actual\string\virtual\pad-end.js132898971276324232 0
 60E:\js\newpizza\node_modules\core-js\actual\array\is-array.js132898971270273696 0
@@ -7392,7 +7401,6 @@
 56E:\js\newpizza\node_modules\console-browserify\README.md132899442527427981 0
 60E:\js\newpizza\node_modules\console-browserify\test\index.js132899442528987734 0
 58E:\js\newpizza\node_modules\console-browserify\test\static132899442529307536 1
-62E:\js\newpizza\node_modules\@parcel\logger\test\Logger.test.js132897604973337062 0
 50E:\js\newpizza\node_modules\concat-map\.travis.yml132899442527907681 0
 47E:\js\newpizza\node_modules\concat-map\index.js132899442527437970 0
 46E:\js\newpizza\node_modules\concat-map\LICENSE132899442526991628 0
@@ -8064,7 +8072,6 @@
 59E:\js\newpizza\node_modules\@parcel\workers\src\cpuCount.js132897604993404731 0
 57E:\js\newpizza\node_modules\@parcel\workers\src\Handle.js132897604997082481 0
 56E:\js\newpizza\node_modules\@parcel\workers\src\types.js132897605020115212 0
-73E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.linux-arm64-gnu.node132897605004717775 0
 57E:\js\newpizza\node_modules\@parcel\workers\src\Worker.js132897605020594908 0
 61E:\js\newpizza\node_modules\@parcel\workers\src\WorkerFarm.js132897605021374415 0
 71E:\js\newpizza\node_modules\@parcel\workers\src\threads\ThreadsChild.js132897605013462410 0
@@ -8363,10 +8370,15 @@
 62E:\js\newpizza\node_modules\@parcel\markdown-ansi\package.json132897604975275864 0
 54E:\js\newpizza\node_modules\@parcel\markdown-ansi\test132897604972477581 1
 70E:\js\newpizza\node_modules\@parcel\markdown-ansi\src\markdown-ansi.js132897604970388859 0
+62E:\js\newpizza\node_modules\@parcel\logger\test\Logger.test.js132897604973337062 0
 56E:\js\newpizza\node_modules\@parcel\logger\src\Logger.js132897604970498809 0
 56E:\js\newpizza\node_modules\@parcel\logger\lib\Logger.js132897604967270782 0
 49E:\js\newpizza\node_modules\@parcel\hash\index.js132897604971438244 0
+54E:\js\newpizza\node_modules\@parcel\hash\index.js.flow132897604966211427 0
+53E:\js\newpizza\node_modules\@parcel\hash\package.json132897604973886728 0
+70E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.darwin-arm64.node132897604990596453 0
 68E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.darwin-x64.node132897604995503440 0
+73E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.linux-arm64-gnu.node132897605004717775 0
 74E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.linux-arm64-musl.node132897605010174496 0
 72E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.linux-x64-musl.node132897605020225120 0
 72E:\js\newpizza\node_modules\@parcel\hash\parcel-hash.win32-x64-msvc.node132897605021364420 0
@@ -8659,9 +8671,9 @@
 56E:\js\newpizza\node_modules\.bin\strip-json-comments.ps1132899442558852374 0
 37E:\js\newpizza\node_modules\.bin\svgo132897605106949354 0
 41E:\js\newpizza\node_modules\.bin\svgo.cmd132897605106949354 0
-40E:\js\newpizza\dist\favicon.8b2f57bf.png132898946407400709 0
+40E:\js\newpizza\dist\favicon.8b2f57bf.png132899837324664605 0
 37E:\js\newpizza\dist\index.62406edb.js132898145972717170 0
 41E:\js\newpizza\dist\index.62406edb.js.map132898145972717170 0
-42E:\js\newpizza\dist\index.f7626f62.css.map132898946407160866 0
-30E:\js\newpizza\dist\index.html132898980988885655 0
-37E:\js\newpizza\dist\logo.726d37a8.png132898946407400709 0
+42E:\js\newpizza\dist\index.f7626f62.css.map132899837324289961 0
+30E:\js\newpizza\dist\index.html132899837324010133 0
+37E:\js\newpizza\dist\logo.726d37a8.png132899837324684586 0
