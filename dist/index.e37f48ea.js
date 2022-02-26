@@ -548,9 +548,12 @@ const controlRecipe = async function() {
 };
 const controlSearchResults = async function() {
     try {
+        //GET SEARCH QUERY
         const query = _searchViewJsDefault.default.getQuery();
         if (!query) return;
+        // load search result
         await _modelJs.loadSearchResults(query);
+        // render result
         console.log(_modelJs.state.search.results);
     } catch (err) {
     // console.log(err); 
