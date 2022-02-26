@@ -529,7 +529,6 @@ var _searchViewJs = require("./views/searchView.js");
 var _searchViewJsDefault = parcelHelpers.interopDefault(_searchViewJs);
 var _runtime = require("regenerator-runtime/runtime");
 var _regeneratorRuntime = require("regenerator-runtime");
-const recipeContainer = document.querySelector('.recipe');
 ///////////////////////////////
 const controlRecipe = async function() {
     try {
@@ -562,6 +561,7 @@ controlSearchResults();
 // controlRecipe();
 const init = function() {
     _recipeViewJsDefault.default.addHandlerRender(controlRecipe);
+    _searchViewJsDefault.default.addHandlerSearch(controlSearchResults);
 };
 init();
 
@@ -2270,7 +2270,7 @@ const loadRecipe = async function(id) {
             cookingTime: recipe.cooking_time,
             ingredients: recipe.ingredients
         };
-    //  console.log(state.recipe);
+        console.log(state.recipe);
     } catch (err) {
         //  console.log(err);
         throw err;
@@ -2280,7 +2280,7 @@ const loadSearchResults = async function(query) {
     try {
         state.search.query = query;
         const data = await _helpers.getJSON(`${_config.API_URL}?search=${query}`);
-        //   console.log(data);
+        // console.log(data);
         state.search.results = data.data.recipes.map((rec)=>{
             return {
                 id: rec.id,
@@ -2338,45 +2338,14 @@ const getJSON = async function(url) {
 },{"regenerator-runtime":"dXNgZ","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","./config":"k5Hzs"}],"l60JC":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
+var _view = require("./View");
+var _viewDefault = parcelHelpers.interopDefault(_view);
 var _iconsSvg = require("url:../../img/icons.svg");
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 var _fractional = require("fractional");
-console.log(_fractional.Fraction);
-class RecipeView {
-    #parentElement = document.querySelector('.recipe');
-    render(data) {
-        this._data = data;
-        const markup = this.#generateMarkup();
-        this.#clear();
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
-     #clear() {
-        this.#parentElement.innerHTML = '';
-    }
-    renderSpinner() {
-        const markup = `
-    <div class="spinner">
-      <svg>
-        <use href="${_iconsSvgDefault.default}#icon-loader"></use>
-      </svg>
-    </div> 
-    `;
-        this.#clear = '';
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
-    renderError(message) {
-        const markup = `
-      <div class = "error">
-        <div>
-          <svg>
-            <use href="${_iconsSvgDefault.default}#icon-alert-triangle"></use>
-          </svg>
-        </div>
-        <p>${message}</p>
-      </div> `;
-        this.#clear = '';
-        this.#parentElement.insertAdjacentHTML('afterbegin', markup);
-    }
+// console.log(Fraction);
+class RecipeView extends _viewDefault.default {
+    _parentElement = document.querySelector('.recipe');
     addHandlerRender(handler) {
         [
             'hashchange',
@@ -2384,7 +2353,7 @@ class RecipeView {
         ].forEach((ev)=>window.addEventListener(ev, handler)
         );
     }
-     #generateMarkup() {
+    _generateMarkup() {
         return ` 
       <figure class="recipe__fig">
         <img src="${this._data.image}" alt="Tomato" class="recipe__img" />
@@ -2433,7 +2402,7 @@ class RecipeView {
     <div class="recipe__ingredients">
       <h2 class="heading--2">Recipe ingredients</h2>
       <ul class="recipe__ingredient-list">
-        ${this._data.ingredients.map(this.#generateMarkupIngredient).join('')}
+        ${this._data.ingredients.map(this._generateMarkupIngredient).join('')}
       </ul>
       
       <div class="recipe__directions">
@@ -2449,17 +2418,17 @@ class RecipeView {
           target="_blank"
         >
           <span>Directions</span>
-          <svg class="search__icon">
+          <svg class="search_#icon">
             <use href="${_iconsSvgDefault.default}#icon-arrow-right"></use>
           </svg>
         </a>
       </div>`;
     }
-     #generateMarkupIngredient(ing) {
+    _generateMarkupIngredient(ing) {
         return `
          
       <li class="recipe__ingredient">
-      <svg class="recipe__icon">
+      <svg class="recipe_#icon">
         <use href="${_iconsSvgDefault.default}#icon-check"></use>
       </svg>
       <div class="recipe__quantity">${ing.quantity ? new _fractional.Fraction(ing.quantity).toString() : ''}</div>
@@ -2474,7 +2443,7 @@ class RecipeView {
 }
 exports.default = new RecipeView();
 
-},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"loVOp","fractional":"3SU56"}],"loVOp":[function(require,module,exports) {
+},{"@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3","url:../../img/icons.svg":"loVOp","fractional":"3SU56","./View":"5cUXS"}],"loVOp":[function(require,module,exports) {
 module.exports = require('./helpers/bundle-url').getBundleURL('hWUTQ') + "icons.dfd7a6db.svg" + "?" + Date.now();
 
 },{"./helpers/bundle-url":"lgJ39"}],"lgJ39":[function(require,module,exports) {
@@ -2765,13 +2734,69 @@ Fraction.primeFactors = function(n) {
 };
 module.exports.Fraction = Fraction;
 
-},{}],"9OQAM":[function(require,module,exports) {
+},{}],"5cUXS":[function(require,module,exports) {
+var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
+parcelHelpers.defineInteropFlag(exports);
+var _iconsSvg = require("url:../../img/icons.svg");
+var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
+class View {
+    _data;
+    render(data) {
+        this._data = data;
+        const markup = this._generateMarkup();
+        this._clear();
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
+    }
+    _clear() {
+        this._parentElement.innerHTML = '';
+    }
+    renderSpinner() {
+        const markup = `
+    <div class="spinner">
+      <svg>
+        <use href="${_iconsSvgDefault.default}#icon-loader"></use>
+      </svg>
+    </div> 
+    `;
+        this._clear = '';
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
+    }
+    renderError(message) {
+        const markup = `
+      <div class = "error">
+        <div>
+          <svg>
+            <use href="${_iconsSvgDefault.default}#icon-alert-triangle"></use>
+          </svg>
+        </div>
+        <p>${message}</p>
+      </div> `;
+        this._clear = '';
+        this._parentElement.insertAdjacentHTML('afterbegin', markup);
+    }
+}
+exports.default = View;
+
+},{"url:../../img/icons.svg":"loVOp","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}],"9OQAM":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 class SearchView {
-    #parentEl = document.querySelector('.search');
+    _parentEl = document.querySelector('.search');
+    _errorMassage = 'WE could not find that recipe. Please try anothe one';
+    _massage = '';
     getQuery() {
-        return this.#parentEl.querySelector('.search__field').value;
+        const query = this._parentEl.querySelector('.search__field').value;
+        this._clearInput();
+        return query;
+    }
+    _clearInput() {
+        this._parentEl.querySelector('.search__field').value = '';
+    }
+    addHandlerSearch(handler) {
+        this._parentEl.addEventListener('submit', function(e) {
+            e.preventDefault();
+            handler();
+        });
     }
 }
 exports.default = new SearchView();

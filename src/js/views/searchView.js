@@ -1,8 +1,21 @@
 class SearchView{
-    #parentEl = document.querySelector('.search');
+    _parentEl = document.querySelector('.search');
+    _errorMassage = 'WE could not find that recipe. Please try anothe one';
+    _massage = '';
 
     getQuery(){
-        return this.#parentEl.querySelector('.search__field').value;
+        const query = this._parentEl.querySelector('.search__field').value;
+        this._clearInput();
+        return query; 
+    }
+    _clearInput(){
+        this._parentEl.querySelector('.search__field').value = '';
+    }
+    addHandlerSearch(handler){
+        this._parentEl.addEventListener('submit', function(e){
+            e.preventDefault();
+            handler(); 
+        });
     }
 }
 export default new SearchView();

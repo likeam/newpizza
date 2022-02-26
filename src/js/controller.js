@@ -9,8 +9,6 @@ import 'regenerator-runtime/runtime';
 import { async } from 'regenerator-runtime';
 
 
-const recipeContainer = document.querySelector('.recipe');
-
 
 ///////////////////////////////
 
@@ -45,10 +43,13 @@ const controlRecipe = async function() {
 
 const controlSearchResults = async function(){
     try{
+
+        //GET SEARCH QUERY
         const query = searchView.getQuery();
         if(!query) return; 
-
+        // load search result
         await model.loadSearchResults(query);
+        // render result
         console.log(model.state.search.results);
     }catch(err)
     {
@@ -61,6 +62,7 @@ controlSearchResults();
 
 const init = function(){
     recipeView.addHandlerRender(controlRecipe);
+    searchView.addHandlerSearch(controlSearchResults);
 
 };
 init();
