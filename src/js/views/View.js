@@ -2,6 +2,7 @@ import icons from 'url:../../img/icons.svg';
 
 export default class View{
   _data;
+  
   render(data){
     this._data = data;
     const markup = this._generateMarkup();
@@ -9,6 +10,7 @@ export default class View{
     this._parentElement.insertAdjacentHTML('afterbegin',  markup);
   }
   _clear(){
+    // console.log(this._parentElement);
     this._parentElement.innerHTML = '';
   }
 
