@@ -1,7 +1,7 @@
 import View from "./View";
 import icons from 'url:../../img/icons.svg';
 
-class ResultView extends View{
+class ResultsView extends View{
 _parentElement =  document.querySelector('.results');
 _errorMassage = 'No recipe forund for your queery ! Please try another';
 _massage = '';
@@ -35,4 +35,4 @@ _generateMarkupPreview(result){
 }
 
 
-export default new ResultView();
+export default new ResultsView();
