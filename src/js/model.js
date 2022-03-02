@@ -31,7 +31,7 @@ const createRecipeObject = function (data) {
 
 export const loadRecipe = async function (id) {
   try {
-    const data = await getJSON(`${API_URL}/${id}`);
+    const data = await getJSON(`${API_URL}${id}`);
     state.recipe = createRecipeObject(data);
 
   //  if(!data.ok) throw new Error(`${data.massage}(${data.status 

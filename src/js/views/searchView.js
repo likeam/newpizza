@@ -4,13 +4,12 @@ class SearchView{
     _massage = '';
 
     getQuery(){
-        const query = this._parentElement.querySelector('.search__field').value;
-        this._clearInput();
-        return query; 
-    }
-    _clearInput(){
-        this._parentElement.querySelector('.search__field').value = '';
-    }
+        return this._parentElement.querySelector('.search__field').value;
+        // this._clearInput();
+         }
+    // _clearInput(){
+    //     this._parentElement.querySelector('.search__field').value = '';
+    // }
     addHandlerSearch(handler){
         this._parentElement.addEventListener('submit', function(e){
             e.preventDefault();

@@ -574,13 +574,14 @@ const controlSearchResults = async function() {
         await _modelJs.loadSearchResults(query);
         // 3) Render results
         _resultsViewJsDefault.default.render(_modelJs.state.search.results);
+        console.log(_modelJs.state.search.results);
     // 4) Render initial pagination buttons
     // paginationView.render(model.state.search);
     } catch (err) {
     // console.log(err);
     }
 };
-controlSearchResults();
+// controlSearchResults();
 // controlRecipe();
 const init = function() {
     _recipeViewJsDefault.default.addHandlerRender(controlRecipes);
@@ -2332,7 +2333,7 @@ const createRecipeObject = function(data) {
 };
 const loadRecipe = async function(id) {
     try {
-        const data = await _helpersJs.getJSON(`${_configJs.API_URL}/${id}`);
+        const data = await _helpersJs.getJSON(`${_configJs.API_URL}${id}`);
         state.recipe = createRecipeObject(data);
     //  if(!data.ok) throw new Error(`${data.massage}(${data.status 
     // console.log(state.recipe);
@@ -2428,7 +2429,6 @@ var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 var _view = require("../views/View");
 var _viewDefault = parcelHelpers.interopDefault(_view);
-// import icons from '../img/icons.svg'; // Parcel 1
 var _iconsSvg = require("url:../../img/icons.svg"); // Parcel 2
 var _iconsSvgDefault = parcelHelpers.interopDefault(_iconsSvg);
 // import { Fraction } from 'fractional';
@@ -2568,13 +2568,12 @@ class SearchView {
     _errorMassage = 'WE could not find that recipe. Please try anothe one';
     _massage = '';
     getQuery() {
-        const query = this._parentElement.querySelector('.search__field').value;
-        this._clearInput();
-        return query;
+        return this._parentElement.querySelector('.search__field').value;
+    // this._clearInput();
     }
-    _clearInput() {
-        this._parentElement.querySelector('.search__field').value = '';
-    }
+    // _clearInput(){
+    //     this._parentElement.querySelector('.search__field').value = '';
+    // }
     addHandlerSearch(handler) {
         this._parentElement.addEventListener('submit', function(e) {
             e.preventDefault();
@@ -2596,7 +2595,7 @@ class ResultsView extends _viewDefault.default {
     _errorMassage = 'No recipe forund for your queery ! Please try another';
     _massage = '';
     _generateMarkup() {
-        console.log(this._data);
+        // console.log(this._data);
         return this._data.map(this._generateMarkupPreview).join('');
     }
     _generateMarkupPreview(result) {

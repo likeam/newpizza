@@ -6,7 +6,7 @@ _parentElement =  document.querySelector('.results');
 _errorMassage = 'No recipe forund for your queery ! Please try another';
 _massage = '';
 _generateMarkup(){
-    console.log(this._data);
+    // console.log(this._data);
     return this._data.map(this._generateMarkupPreview).join('');
    
 }
